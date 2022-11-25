@@ -28,7 +28,7 @@ public class ToggleSkybox : MonoBehaviour
         else
         {
             day1.SetActive(true);
-            day2.SetActive(false);
+            day2.SetActive(true);
             RenderSettings.skybox = original;
         }
     }
