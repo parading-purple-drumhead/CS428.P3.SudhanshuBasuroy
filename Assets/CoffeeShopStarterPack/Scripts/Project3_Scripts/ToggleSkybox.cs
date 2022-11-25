@@ -5,6 +5,8 @@ using UnityEngine;
 public class ToggleSkybox : MonoBehaviour
 {
     public Material original;
+    public Material night;
+    public GameObject day1;
     public bool is_off;
     void Start()
     {
@@ -13,12 +15,13 @@ public class ToggleSkybox : MonoBehaviour
     }
 
     
-    void Update()
+    public void change_night()
     {
-        //is_off=!is_off;
+        is_off=!is_off;
         if(is_off)
         {
-            RenderSettings.skybox = (null);
+            day1.SetActive(false);
+            RenderSettings.skybox = night;
         }
         else
         {
