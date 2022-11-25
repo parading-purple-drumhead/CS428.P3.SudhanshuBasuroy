@@ -6,11 +6,18 @@ using Zinnia.Tracking.Collision;
 public class FillCup : MonoBehaviour
 {
     public AudioSource machine_sound;
+
     public GameObject fill;
+
     public GameObject fill_particle;
+
     public GameObject snap_zone;
+
     public Vector3 spawnPosition;
+
     public bool is_placed;
+
+    public bool is_empty;
 
     void Start()
     {
@@ -50,8 +57,8 @@ public class FillCup : MonoBehaviour
         yield return new WaitWhile(() => machine_sound.isPlaying);
         Instantiate(fill, spawnPosition, Quaternion.identity);
     }
+
     void Update()
     {
-
     }
 }
