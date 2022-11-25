@@ -7,6 +7,7 @@ public class ToggleSkybox : MonoBehaviour
     public Material original;
     public Material night;
     public GameObject day1;
+    public GameObject day2;
     public bool is_off;
     void Start()
     {
@@ -21,10 +22,13 @@ public class ToggleSkybox : MonoBehaviour
         if(is_off)
         {
             day1.SetActive(false);
+            day2.SetActive(false);
             RenderSettings.skybox = night;
         }
         else
         {
+            day1.SetActive(true);
+            day2.SetActive(false);
             RenderSettings.skybox = original;
         }
     }
