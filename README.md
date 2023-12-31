@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was developed as part of the coursework for CS 428 Virtual, Augmented, and Mixed Reality at the University of Illinois at Chicago during the Fall 2022 semester. The goal of the project was to create an immersive Virtual Reality scene on a building scale, specifically modifying the atrium of the upcoming CDRLC building. The development team, consisting of [Your Name] and Advait Pai, chose a Christmas theme for the scene and adorned various parts of the atrium with festive decorations.
+This project was developed as part of the coursework for CS 428 Virtual, Augmented, and Mixed Reality at the University of Illinois at Chicago during the Fall 2022 semester. The goal of the project was to create an immersive Virtual Reality scene on a building scale, specifically modifying the atrium of the upcoming CDRLC building. The development team chose a Christmas theme for the scene and adorned various parts of the atrium with festive decorations.
 
 ## Prerequisites
 
